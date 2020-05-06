@@ -7,3 +7,4 @@ For audio amplifier it uses a TDA 2003, previously I also included a preamp, but
 
 ![VFO](https://github.com/paulh002/Hycas-IF/blob/master/hycas-a.jpg)
 ![VFO](https://github.com/paulh002/Hycas-IF/blob/master/HYCAS4.jpg)
+![VFO](https://github.com/paulh002/Hycas-IF/blob/master/hycasjpg.jpg)
