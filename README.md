@@ -6,4 +6,4 @@ I included the s-meter extension which works very well. There are some resistors
 For audio amplifier it uses a TDA 2003, previously I also included a preamp, but that generated oscillation (in the prototype it worked fine) The sound can be low but that can be changed by changing the feedback resistors 220 and 2.2 Ohm. (Still doing some test on this)
 
 ![VFO](https://github.com/paulh002/Hycas-IF/blob/master/hycas-a.jpg)
-![VFO](https://github.com/paulh002/Hycas-IF/blob/master/hycas4a.jpg)
+![VFO](https://github.com/paulh002/Hycas-IF/blob/master/HYCAS4.jpg)
