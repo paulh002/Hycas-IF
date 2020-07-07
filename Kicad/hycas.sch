@@ -29,7 +29,7 @@ F 7 "G:\\tubes\\kicad\\receiver-t\\philips.lib" H 2300 4450 50  0001 C CNN "Spic
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904_SMD Q1
+L tube:2N3904_SOT23 Q1
 U 1 1 5CF0E0C5
 P 2300 3800
 F 0 "Q1" H 2491 3846 50  0000 L CNN
@@ -189,7 +189,7 @@ F 7 "G:\\tubes\\kicad\\receiver-t\\philips.lib" H 3450 4300 50  0001 C CNN "Spic
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904_SMD Q3
+L tube:2N3904_SOT23 Q3
 U 1 1 5CF0FFD0
 P 3450 3650
 F 0 "Q3" H 3641 3696 50  0000 L CNN
@@ -349,7 +349,7 @@ F 7 "G:\\tubes\\kicad\\receiver-t\\philips.lib" H 4700 4300 50  0001 C CNN "Spic
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904_SMD Q5
+L tube:2N3904_SOT23 Q5
 U 1 1 5CF10466
 P 4700 3650
 F 0 "Q5" H 4891 3696 50  0000 L CNN
@@ -683,7 +683,7 @@ Wire Wire Line
 Wire Wire Line
 	2400 2900 2400 3250
 $Comp
-L Transistor_BJT:2N3906_SMD Q7
+L tube:2N3906_SOT23 Q7
 U 1 1 5CF17517
 P 6100 3150
 F 0 "Q7" H 6290 3104 50  0000 L CNN
@@ -699,7 +699,7 @@ F 8 "3,2,1" H 6100 3150 50  0001 C CNN "Spice_Node_Sequence"
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3906_SMD Q8
+L tube:2N3906_SOT23 Q8
 U 1 1 5CF1A0EE
 P 7300 3150
 F 0 "Q8" H 7491 3104 50  0000 L CNN
@@ -716,8 +716,6 @@ F 8 "G:\\tubes\\kicad\\receiver-t\\2n3906.lib" H 7300 3150 50  0001 C CNN "Spice
 $EndComp
 Wire Wire Line
 	5600 3000 5900 3000
-Wire Wire Line
-	5900 3000 5900 3150
 Wire Wire Line
 	7500 3400 7500 3150
 $Comp
@@ -811,14 +809,12 @@ Wire Wire Line
 	7200 2950 7200 2850
 Wire Wire Line
 	7200 2950 7000 2950
-Connection ~ 7200 2950
 Wire Wire Line
 	6700 2950 6600 2950
 Wire Wire Line
 	6300 2950 6200 2950
 Wire Wire Line
 	6200 2950 6200 2850
-Connection ~ 6200 2950
 Wire Wire Line
 	5900 3000 5900 2850
 Connection ~ 5900 3000
@@ -833,9 +829,6 @@ F 3 "~" H 5900 3700 50  0001 C CNN
 	1    5900 3700
 	-1   0    0    1   
 $EndComp
-Wire Wire Line
-	5900 3550 5900 3150
-Connection ~ 5900 3150
 $Comp
 L power:GND #PWR023
 U 1 1 5CF329DD
@@ -991,7 +984,7 @@ F 3 "" H 7250 4450 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904_SMD Q9
+L tube:2N3904_SOT23 Q9
 U 1 1 5CF47EB4
 P 7850 4400
 F 0 "Q9" H 7650 4600 50  0000 L CNN
@@ -1090,7 +1083,7 @@ $EndComp
 Wire Wire Line
 	8750 4400 8850 4400
 $Comp
-L Transistor_BJT:2N3904_SMD Q12
+L tube:2N3904_SOT23 Q12
 U 1 1 5CF5B208
 P 9750 3800
 F 0 "Q12" H 9941 3846 50  0000 L CNN
@@ -1106,7 +1099,7 @@ F 8 "G:\\tubes\\kicad\\receiver-t\\2n3904.lib" H 9750 3800 50  0001 C CNN "Spice
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904_SMD Q11
+L tube:2N3904_SOT23 Q11
 U 1 1 5CF5BEEF
 P 9000 3800
 F 0 "Q11" H 9191 3846 50  0000 L CNN
@@ -1170,8 +1163,6 @@ F 3 "" H 10200 4100 50  0001 C CNN
 	1    10200 4100
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9950 3800 10200 3800
 $Comp
 L Device:R R41
 U 1 1 5CF67D1E
@@ -1185,7 +1176,6 @@ F 3 "~" H 10500 3800 50  0001 C CNN
 $EndComp
 Wire Wire Line
 	10200 3800 10350 3800
-Connection ~ 10200 3800
 $Comp
 L Connector:Screw_Terminal_01x02 J5
 U 1 1 5CF67D2A
@@ -1203,7 +1193,7 @@ $EndComp
 Wire Wire Line
 	10650 3800 10750 3800
 $Comp
-L Transistor_BJT:2N3906_SMD Q10
+L tube:2N3906_SOT23 Q10
 U 1 1 5CF6D2D5
 P 8650 2600
 F 0 "Q10" H 8841 2554 50  0000 L CNN
@@ -2262,4 +2252,9 @@ Wire Wire Line
 	4450 6700 4450 6850
 Wire Wire Line
 	5050 6050 5050 6500
+Wire Wire Line
+	5900 3000 5900 3550
+Wire Wire Line
+	9950 3800 10200 3800
+Connection ~ 10200 3800
 $EndSCHEMATC
